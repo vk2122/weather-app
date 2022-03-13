@@ -27,5 +27,10 @@ input :focus {
 }
 .weather {
     text-align: center;
-    
+    font-size: 2rem;
+}
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
 }
