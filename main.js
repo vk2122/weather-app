@@ -1,8 +1,8 @@
-const apiKey = "api key";  
+const apiKey = "4ad54bdd85cb54d2733a6a36b1352c6d";  
 const main = document.getElementById('main');  
 const form = document.getElementById('form');  
 const search = document.getElementById('search');  
-const url = (city)=> `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${'4ad54bdd85cb54d2733a6a36b1352c6d'}`;  
+const url = (city)=> `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;  
 async function getWeatherByLocation(city){  
      const resp = await fetch(url(city), {  
        origin: "cros" });  
